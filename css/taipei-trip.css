@@ -1,0 +1,62 @@
+body,
+.navBar {
+    background-color: #ffffff;
+
+}
+
+.container {
+    background-image: linear-gradient(to bottom, #ffffff, #E8E7EA);
+    padding-bottom: 160px;
+}
+
+.container-wrap {
+    max-width: 1700px;
+    margin-top: 184px;
+    display: flex;
+}
+
+.trip-container {
+    /* width: 80%; */
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.trip-container img {
+    width: 100%;
+}
+
+
+.trip h2 {
+    font-size: 36px;
+    margin-top: 190px;
+    margin-bottom: 32px;
+    font-weight: 700;
+}
+
+.trip h6 {
+    width: 85%;
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+.button {
+    width: 84px;
+    color: #949494;
+    background-color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 16px 48px;
+    cursor: pointer;
+    /* border: 1px solid #949494; */
+    border-radius: 12px;
+    text-decoration: none;
+    margin-right: 24px;
+    margin-bottom: 200px;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #F43906;
+    /* border: 1px solid #F43906; */
+}
