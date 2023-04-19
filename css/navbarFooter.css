@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Sacramento&display=swap');
+
+
+body {
+    font-family: "Noto Sans TC";
+    color: #0c0a0a;
+    font-size: 16px;
+    background-color: #E8E7EA;
+    font-weight: 400;
+}
+
+.navBar {
+    width: 100%;
+    background-color: #E8E7EA;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+}
+
+.topNav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    height: 72px;
+}
+
+.title a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title a:hover {
+    color: #f43906;
+}
+
+.menu {
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.portfolio,
+.aboutMe,
+.design {
+    font-size: 14px;
+    text-decoration: none;
+    text-align: left;
+    color: #949494;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+
+.line {
+    padding-right: 138px;
+    border-bottom: solid 1px #949494;
+    margin-left: 1px;
+    display: flex;
+    padding-bottom: 3px;
+}
+
+.portfolio:hover,
+.aboutMe:hover,
+.design:hover {
+    transition: .3s;
+    color: #000000;
+}
+
+.line:hover {
+    transition: .3s;
+    border-bottom: solid 1px #000000;
+
+}
+
+/* ------footer------ */
+
+.footer {
+    background-color: #CFCFD1;
+}
+
+.footer h2 {
+    /* margin-top: 124px; */
+    padding: 56px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+
+/* ======== */
+.design {
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.line {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    /* overflow-y: 50px; */
+    background-color: #ffffff;
+    max-width: 100%;
+    border-radius: 8px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    padding: 12px 16px;
+    padding-right: 91px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.line:hover .dropdown-content {
+    display: block;
+}
