@@ -1,0 +1,207 @@
+.container-wrap {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 184px;
+    margin-bottom: 136px;
+}
+
+.intro-wrap {
+    display: flex;
+}
+
+.contact-wrap {
+    display: flex;
+
+}
+
+.card {
+    width: 392px;
+    height: 392px;
+    background-color: #CFCFD1;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.w-img {
+    width: 100%;
+}
+
+.intro {
+    margin-left: 118px;
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+.i-title h1 {
+    width: 306px;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 8px 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 36px;
+}
+
+.i-title h5 {
+    font-size: 16px;
+    width: 693px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.info-wrap h3 {
+    font-size: 16px;
+    margin-top: 24px;
+    line-height: 24px;
+}
+
+.experience-wrap {
+    margin-left: 287px;
+}
+
+.experience-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 507px;
+    margin-top: 80px;
+}
+
+.experience {
+    display: flex;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-left: 45px;
+    text-align: justify;
+}
+
+.date {
+    font-weight: 700;
+}
+
+.experience-info {
+    margin-left: 56px;
+    line-height: 28px;
+}
+
+.experience-info h2 {
+    font-weight: 600;
+}
+
+/* ------------------- */
+
+.valueskill-wrap {
+    background-color: #ffffff;
+}
+
+.value-container,
+.skill-container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.value {
+    display: flex;
+    margin-top: 112px;
+    margin-bottom: 136px;
+
+}
+
+.skill {
+    display: flex;
+    margin-bottom: 136px;
+}
+
+.value h3,
+.skill h3 {
+    font-size: 24px;
+    margin-right: 100px;
+    font-weight: 700;
+}
+
+.skill h3 {
+    margin-right: 123px;
+
+}
+
+.team,
+.humble,
+.things {
+    width: 24%;
+    text-align: justify;
+}
+
+.team h5,
+.humble h5,
+.things h5 {
+    font-weight: 700;
+}
+
+.team {
+    padding-right: 28px;
+}
+
+.humble {
+    padding: 0px 28px;
+    border-left: solid 1px #000000;
+    border-right: solid 1px #000000;
+}
+
+.things {
+    padding-left: 28px;
+}
+
+/* ----------- */
+
+.software-container {
+    padding-right: 28px;
+}
+
+.program-container {
+    padding: 0px 28px;
+}
+
+.language-container {
+    padding-left: 28px;
+}
+
+.software-container h5,
+.program-container h5,
+.language-container h5 {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.software-card,
+.program-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.software,
+.program {
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+
+.software h6,
+.program h6 {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.s-card,
+.p-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+}
+
+.s-card img,
+.p-card img {
+    width: 100%;
+}
