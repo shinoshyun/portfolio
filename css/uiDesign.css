@@ -1,0 +1,26 @@
+.container-wrap {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 184px;
+    margin-bottom: 124px;
+}
+
+.container-wrap h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.SNS-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 56px;
+}
+
+.SNS-container img {
+    border-radius: 12px;
+    margin-bottom: 24px;
+    width: 100%;
+    object-fit: cover;
+}
