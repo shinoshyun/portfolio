@@ -81,7 +81,10 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .lp-container,
+    /* .lp-container {
+        column-count: 2;
+    } */
+
     .e-magazine-container {
         gap: 16px;
         grid-template-columns: repeat(2, 1fr);
@@ -91,7 +94,11 @@
         height: 100%;
         margin-bottom: 12px;
     }
+}
 
-
-
+@media screen and (max-width: 479px) {
+    .lp-container {
+        column-count: 2;
+        gap: 16px;
+    }
 }
