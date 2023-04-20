@@ -13,16 +13,16 @@
 }
 
 .SNS-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 56px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(1, 1fr); */
+    /* gap: 56px; */
     font-size: 24px;
 }
 
 .SNS-container img {
     border-radius: 12px;
     margin-bottom: 24px;
-    width: 70%;
+    /* width: 100%; */
     object-fit: cover;
 }
 
@@ -30,41 +30,59 @@
 .treasure-card,
 .brangista-card,
 .dontei-card {
-    display: flex;
-    justify-content: space-between;
+    margin-bottom: 160px;
+
 }
 
 .treasure-content,
 .brangista-content,
 .dontei-content {
-    margin-right: 56px;
-    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .treasure-content h1,
-.brangista-content h1 {
-    margin-bottom: 36px;
+.brangista-content h1,
+.dontei-content h1 {
+    text-align: center;
 }
 
 .button {
-    width: 84px;
+    width: 300px;
     color: #949494;
     background-color: #ffffff;
     font-size: 16px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-align: center;
     padding: 16px 48px;
     cursor: pointer;
     /* border: 1px solid #949494; */
     border-radius: 12px;
     text-decoration: none;
-    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 16px;
 }
 
 .button:hover {
     color: #ffffff;
     background-color: #f43906;
     /* border: 1px solid #F43906; */
-
 }
+
+
+/* .SNS-container img {
+    border-radius: 12px;
+    margin-bottom: 24px;
+    width: 100%;
+} */
+
+/* .treasure-card,
+.brangista-card,
+.dontei-card {
+    display: inline-block;
+} */
