@@ -61,3 +61,32 @@
     width: 105%;
     transition: .5s;
 }
+
+
+
+@media (max-width: 480px) {
+    .container-wrap {
+        width: 90%;
+    }
+
+    .SNS-container {
+        column-count: 1;
+        column-gap: 16px;
+    }
+
+    .flyer-container {
+        gap: 16px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .lp-container {
+        gap: 16px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flyer-container img {
+        height: 100%;
+        margin-bottom: 12px;
+    }
+
+}
