@@ -50,11 +50,26 @@
     line-height: 24px;
 }
 
+
 .info-wrap h3 {
     font-size: 16px;
     margin-top: 24px;
-    line-height: 24px;
+    line-height: 28px;
 }
+
+.info-card {
+    background-color: #ffffff;
+    border-radius: 100px;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    margin-top: 56px;
+}
+
+.info-card img {
+    width: 100%;
+}
+
 
 .experience-wrap {
     margin-left: 287px;
