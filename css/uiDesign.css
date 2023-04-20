@@ -12,10 +12,6 @@
     text-align: center;
 }
 
-.SNS-container {
-    font-size: 24px;
-}
-
 .SNS-container img {
     border-radius: 12px;
     margin-bottom: 24px;
@@ -45,10 +41,11 @@
 .brangista-content h1,
 .dontei-content h1 {
     text-align: center;
+    font-size: 24px;
 }
 
 .button {
-    width: 300px;
+    width: 30%;
     color: #949494;
     background-color: #ffffff;
     font-size: 16px;
@@ -72,13 +69,24 @@
     /* border: 1px solid #F43906; */
 }
 
-@media (max-width: 820px) {
+@media (max-width: 480px) {
     .container-wrap {
         width: 90%;
     }
 
     .button {
-        width: 90%;
+        width: 60%;
     }
 
+    .treasure-card,
+    .brangista-card,
+    .dontei-card {
+        margin-bottom: 48px;
+    }
+
+    .treasure-content h1,
+    .brangista-content h1,
+    .dontei-content h1 {
+        font-size: 20px;
+    }
 }
