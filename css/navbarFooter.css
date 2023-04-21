@@ -155,4 +155,8 @@ body {
     .footer h2 {
         font-size: 12px;
     }
+
+    .line {
+        padding-right: 10px;
+    }
 }
