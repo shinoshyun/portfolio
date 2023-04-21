@@ -226,6 +226,7 @@
     .container-wrap {
         width: 90%;
         flex-direction: column;
+
         justify-content: center;
     }
 
@@ -252,6 +253,7 @@
     .i-title h1 {
         width: 153px;
         font-size: 20px;
+        margin: auto;
     }
 
     .i-title h5 {
@@ -260,21 +262,28 @@
 
     .contact-wrap {
         flex-direction: column;
-        align-items: center;
         justify-content: center;
     }
 
     .experience-wrap {
         margin: 0px;
+        margin-top: 80px;
     }
 
 
     .experience {
         margin: 0px;
+
     }
 
     .experience-title {
         margin: 0px;
+        margin-top: 80px;
+    }
+
+    .info-wrap {
+        display: flex;
+        justify-content: space-between;
     }
 
     .experience-info {
