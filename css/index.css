@@ -126,11 +126,10 @@
     .g-title-container,
     .w-title-container {
         margin-left: 0px;
-
-        /* width: 90%; */
     }
 
     .t-title,
+    .w-title,
     .g-title {
         margin-bottom: 48px;
     }
@@ -151,16 +150,32 @@
     .w-title h5,
     .g-title h5 {
         width: 100%;
+        margin-bottom: 16px;
     }
 
-    /* .section-taipei,
-    .section-graphic {
-        margin-bottom: 180px;
-    } */
+    .t-title,
+    .w-title,
+    .g-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
     .button {
-        width: 100%;
+        /* width: 90%; */
         padding: 16px 80px;
+    }
+}
 
+@media only screen and (max-width: 480px) {
+
+    .card {
+        order: 2;
+    }
+
+    .w-title-container {
+        order: 1;
     }
 }
