@@ -141,3 +141,14 @@ body {
 .line:hover .dropdown-content {
     display: block;
 }
+
+
+@media (max-width: 480px) {
+    .topNav-wrap {
+        width: 95%;
+    }
+
+    .title a {
+        font-size: 16px;
+    }
+}
