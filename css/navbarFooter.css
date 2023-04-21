@@ -159,4 +159,9 @@ body {
     .line {
         padding-right: 10px;
     }
+
+    .dropdown-content a {
+        padding-right: 0px;
+        padding: 4px 8px;
+    }
 }
