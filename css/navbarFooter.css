@@ -151,4 +151,8 @@ body {
     .title a {
         font-size: 16px;
     }
+
+    .footer h2 {
+        font-size: 12px;
+    }
 }
