@@ -34,8 +34,8 @@
 }
 
 .i-title h1 {
-    width: 306px;
-    font-size: 40px;
+    width: 215px;
+    font-size: 28px;
     font-weight: 500;
     padding: 8px 24px;
     background-color: #ffffff;
@@ -230,9 +230,56 @@
     }
 
     .intro-wrap {
-        display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: 80%;
+        height: 290px;
+    }
+
+    .intro {
+        margin: 0px;
+        justify-content: center;
+    }
+
+    .i-title {
+        width: 90%;
+    }
+
+    .i-title h1 {
+        width: 153px;
+        font-size: 20px;
+    }
+
+    .i-title h5 {
+        width: 100%;
+    }
+
+    .contact-wrap {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .experience-wrap {
+        margin: 0px;
+    }
+
+
+    .experience {
+        margin: 0px;
+    }
+
+    .experience-title {
+        margin: 0px;
+    }
+
+    .experience-info {
+        margin-left: 24px;
+        margin-bottom: 24px;
     }
 
 
