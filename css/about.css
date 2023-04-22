@@ -219,6 +219,11 @@
 .s-card img,
 .p-card img {
     width: 100%;
+
+}
+
+.info-wrap2 {
+    display: none;
 }
 
 
@@ -340,15 +345,26 @@
         flex-direction: column;
         align-items: flex-start;
     }
-}
 
-/* 小於 480px 時，將 .contact-wrap 設為第一個元素，.experience-title 設為第二個元素 */
-@media screen and (max-width: 480px) {
     .info-wrap {
-        order: 1;
+        display: none;
     }
 
-    .experience-title {
-        order: 2;
+    .info-wrap2 {
+        display: flex;
     }
-}
+
+    .info-wrap h3 {
+        margin-top: 0px;
+        margin-bottom: 24px;
+    }
+
+    .info-card {
+        width: 72px;
+        height: 72px;
+        margin-top: 0px;
+    }
+
+
+
+    /* 小於 480px 時，將 .contact-wrap 設為第一個元素，.experience-title 設為第二個元素 */
