@@ -118,7 +118,7 @@
 
 .value {
     display: flex;
-    margin-top: 112px;
+    margin-top: 56px;
     margin-bottom: 136px;
 
 }
@@ -226,8 +226,8 @@
     .container-wrap {
         width: 90%;
         flex-direction: column;
-
         justify-content: center;
+        margin-bottom: 56px;
     }
 
     .intro-wrap {
@@ -268,7 +268,7 @@
 
     .experience-wrap {
         margin: 0px;
-        margin-top: 80px;
+        margin-top: 24px;
     }
 
 
