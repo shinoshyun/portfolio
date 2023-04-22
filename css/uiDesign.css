@@ -72,6 +72,7 @@
 @media (max-width: 480px) {
     .container-wrap {
         width: 90%;
+        margin-top: 136px;
     }
 
     .button {
