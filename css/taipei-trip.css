@@ -70,9 +70,15 @@ body,
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 136px;
     }
 
-    .trip {}
+    .trip {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
 
     .trip-container img {
         width: 113%;
@@ -88,5 +94,9 @@ body,
         font-size: 20px;
         margin-bottom: 48px;
         width: 90%;
+    }
+
+    .button {
+        margin-right: 0px;
     }
 }
