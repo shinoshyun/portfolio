@@ -306,6 +306,7 @@
     .language-container {
         padding: 0px;
         margin-bottom: 32px;
+        align-items: flex-start;
     }
 
     .value {
@@ -332,6 +333,7 @@
     .skill {
         flex-direction: column;
         margin-bottom: 0px;
+        align-items: flex-start;
     }
 }
 
