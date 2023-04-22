@@ -64,6 +64,10 @@ body,
 }
 
 @media (max-width: 480px) {
+    .container {
+        padding-bottom: 56px;
+    }
+
     .container-wrap {
         /* width: 90%; */
         display: flex;
