@@ -11,17 +11,18 @@
     margin: auto;
     font-size: 24px;
     letter-spacing: 1px;
+    text-align: justify
 }
 
 .section-taipei,
-.section-graphic {
+.section-web {
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-web {
+.section-graphic {
     margin-top: 80px;
     display: flex;
     align-items: center;
@@ -36,11 +37,11 @@
 }
 
 .t-title-container,
-.g-title-container {
+.w-title-container {
     margin-left: 102px;
 }
 
-.w-title-container {
+.g-title-container {
     margin-left: 116px;
 }
 
@@ -93,7 +94,6 @@
     /* border: 1px solid #949494; */
     border-radius: 12px;
     text-decoration: none;
-    ;
 }
 
 .button:hover {
@@ -168,7 +168,7 @@
         padding: 16px 80px;
     }
 
-    .section-web {
+    .section-graphic {
         display: flex;
         flex-direction: column;
     }
@@ -177,7 +177,7 @@
         order: 2;
     }
 
-    .w-title-container {
+    .g-title-container {
         order: 1;
     }
 }
