@@ -106,6 +106,7 @@
 @media (max-width: 480px) {
     .container-wrap {
         width: 90%;
+        margin-top: 136px;
     }
 
     .intro {
@@ -165,7 +166,7 @@
 
     .button {
         /* width: 90%; */
-        padding: 16px 80px;
+        padding: 16px 116px;
     }
 
     .section-graphic {
