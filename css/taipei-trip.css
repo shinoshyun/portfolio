@@ -98,5 +98,7 @@ body,
 
     .button {
         margin-right: 0px;
+        margin-bottom: 24px;
+        padding: 16px 29%;
     }
 }
