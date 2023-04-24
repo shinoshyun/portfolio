@@ -144,12 +144,23 @@ body {
 
 
 @media (max-width: 480px) {
+
+
     .topNav-wrap {
         width: 95%;
+        display: block;
+    }
+
+    .menu {
+        justify-content: center;
     }
 
     .title a {
-        font-size: 16px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 4px;
     }
 
     .footer h2 {
@@ -157,11 +168,12 @@ body {
     }
 
     .line {
-        padding-right: 10px;
+        padding-right: 50px;
     }
 
     .dropdown-content a {
-        padding-right: 0px;
         padding: 4px 8px;
+        padding-right: 48px;
+
     }
 }
