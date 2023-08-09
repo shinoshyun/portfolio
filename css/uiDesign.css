@@ -20,12 +20,11 @@
     object-fit: cover;
 }
 
-
 .treasure-card,
 .brangista-card,
 .eatnow-card,
 .dontei-card {
-    margin-bottom: 160px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
 
