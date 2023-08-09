@@ -104,7 +104,7 @@ body {
     display: inline-block;
 }
 
-/* 下拉内容 (默认隐藏) */
+/* 下拉内容 (默認隱藏) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -118,7 +118,7 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* 下拉菜单的链接 */
+/* 下拉菜單的連結 */
 .dropdown-content a {
     font-size: 14px;
     font-weight: 400;
@@ -132,12 +132,12 @@ body {
 
 }
 
-/* 鼠标移上去后修改下拉菜单链接颜色 */
+/* 滑鼠移上去後修改下拉菜單連結顏色 */
 .dropdown-content a:hover {
     background-color: #f1f1f1
 }
 
-/* 在鼠标移上去后显示下拉菜单 */
+/* 在滑鼠移上去後顯示下拉菜單 */
 .line:hover .dropdown-content {
     display: block;
 }
