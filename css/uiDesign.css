@@ -23,6 +23,7 @@
 
 .treasure-card,
 .brangista-card,
+.food-card,
 .dontei-card {
     margin-bottom: 160px;
 
@@ -42,6 +43,15 @@
 .dontei-content h1 {
     text-align: center;
     font-size: 24px;
+    /* font-weight: 700; */
+}
+
+.treasure-content h6 {
+    font-size: 16px;
+    color: #222222;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
 }
 
 .button {
