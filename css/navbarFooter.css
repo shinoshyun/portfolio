@@ -5,13 +5,13 @@ body {
     font-family: "Noto Sans TC";
     color: #0c0a0a;
     font-size: 16px;
-    background-color: #E8E7EA;
+    background-color: #f0f0f0;
     font-weight: 400;
 }
 
 .navBar {
     width: 100%;
-    background-color: #E8E7EA;
+    background-color: #f0f0f0;
     z-index: 200;
     position: fixed;
     top: 0;
