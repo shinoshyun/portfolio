@@ -34,13 +34,14 @@
 }
 
 .i-title h1 {
-    width: 215px;
+    width: 45%;
     font-size: 28px;
     font-weight: 500;
     padding: 8px 24px;
     background-color: #ffffff;
     border-radius: 12px;
     margin-bottom: 12px;
+    text-align: center;
 }
 
 .i-title h5 {
